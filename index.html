@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="column">
+                <h3 class="team-name">HOME</h3>
+                <h2 class="score" id="home-score">0</h2>
+                <div class="btn-container">
+                    <button id="home-score-btn-1" onClick="increaseHomeScoreOne()">+ 1</button>
+                    <button id="home-score-btn-2" onClick="increaseHomeScoreTwo()">+ 2</button>
+                    <button id="home-score-btn-3" onClick="increaseHomeScoreThree()">+ 3</button>
+                </div>
+            </div>
+            <div class="column">
+                <h3 class="team-name">GUEST</h3>
+                <h2 class="score" id="guest-score">0</h2>
+                <div class="btn-container">
+                    <button id="guest-score-btn-1" onClick="increaseGuestScoreOne()">+ 1</button>
+                    <button id="guest-score-btn-2" onClick="increaseGuestScoreTwo()">+ 2</button>
+                    <button id="guest-score-btn-3" onClick="increaseGuestScoreThree()">+ 3</button>
+                </div>
+            </div>
+        </div>
+        <div class="app-actions">
+            <div class="new-game">
+                <button onClick="resetScores()">Start new game</button>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,76 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: #1B244A;
+    display: flex;
+    flex-direction: column;
+}
+
+@font-face {
+    font-family: "Cursed Timer ULiL";
+    src: url("fonts/CursedTimerUlil-Aznm.ttf");
+}
+
+.app-actions {
+    margin: 30px auto;
+
+}
+
+.container {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #EEEEEE;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.team-name {
+    font-size: 40px;
+    width: 100%;
+    margin: 20px auto 0 auto;
+}
+
+.score {
+    font-family: 'Cursed Timer ULiL'; 
+    background-color: #0A0001;
+    font-size: 90px;
+    color: #F94F6D;
+    margin: 20px auto;
+    padding: 30px 70px;
+    border-radius: 7.5px;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+button {
+    font-family: 'Cursed Timer ULiL'; 
+    font-size: 18px;
+    color: #9AABD8;
+    background: none;
+    border: 2px #9AABD8 solid;
+    border-radius: 5px;
+    padding: 18px 9px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+
+
